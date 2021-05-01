@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "dev:server": "tsnd --respawn --transpile-only --ignore-watch node_modules ./src/server.ts",
-    "typeorm": "tsnd --transpile-only ./node_modules/typeorm/cli.js",
     "migrate:create": "tsnd --transpile-only ./node_modules/typeorm/cli.js migration:create -n",
     "migrate:run": "tsnd --transpile-only ./node_modules/typeorm/cli.js migration:run",
     "migrate:revert": "tsnd --transpile-only ./node_modules/typeorm/cli.js migration:revert",
